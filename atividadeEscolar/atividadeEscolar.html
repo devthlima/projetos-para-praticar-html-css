@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova de Conhecimentos Gerais</title>
+</head>
+
+<body>
+    <h1>9º Série A - Prova de Conhecimentos Gerais</h1>
+    <br>
+    <p>Responda todas as questões, utilize rascunhos em papel para realizar
+        os cálculos. Os rascunhos serão recolhidos pela professora
+        após a quarentena.
+    </p>
+
+    <fieldset>
+
+        <legend>Informações do aluno</legend>
+        <input type="text" name="" placeholder="Digite o seu nome">
+        <br><br>
+        <input type="text" name="" placeholder="Nº de pessoas no grupo">
+        <br><br>
+        <label for="dtaNascimento">Data de Nascimento</label><br>
+        <input type="date" name="dtaNascimento" id="dtaNascimento" placeholder="Insira sua data de nascimento">
+        <br>
+        <br>
+        <label for="password">Digite uma senha para acessar os dados da pesquisa posteriormente:</label><br>
+        <input type="password" name="" placeholder="Digite uma senha">
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Matemática</legend>
+        <img src="matematica.jpg" alt="exercicios de matematica" width="300">
+
+        <br>
+
+        <label for="exercicios01"> 3 + 3 =</label>
+        <input type="number" name="exercicios01">
+
+        <br><br>
+
+        <label for="exercicios02"> 10 / 3 =</label>
+        <input type="number" name="exercicios02">
+
+        <br><br>
+
+        <label for="exercicios03"> 5 * 2 =</label>
+        <input type="number" name="exercicios03">
+
+        <br><br>
+
+        <label for="dificuldade">Essa tarefa foi difícil?</label>
+        <input type="range" name="dificuldade">
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Opinião quanto a utilização</legend>
+
+        <img src="https://concursospublicoabertos.com.br/wp-content/uploads/2019/11/como-estudar-portugues-para-concurso-publico-740x375.jpg"
+            alt="Português"><br>
+
+        <label>Na frase: "Eu sou bonita" o sujeito é</label><br>
+
+        <input type="radio" name="gostomuito" id="gostomuito" value="Gosto Muito">
+        <label> Brad pitt</label><br>
+        <input type="radio" name="gostomuito" id="gostomuito" value="Gosto Muito">
+        <label> João da padaria</label><br>
+        <input type="radio" name="gostomuito" id="gostomuito" value="Gosto Muito">
+        <label> Você mesmo</label><br>
+        <input type="radio" name="gostomuito" id="gostomuito" value="Gosto Muito">
+        <label> Meus pais</label><br>
+        <input type="radio" name="gostomuito" id="gostomuito" value="Gosto Muito">
+        <label> Eu</label><br><br>
+
+        <label>Complete a frase: "Filho de peixe, peixinho____"</label><br>
+        
+        <input type="checkbox" id="fixação" name="caracteristica" value="fixação">
+		<label for="fixação"> é</label><br>
+		<input type="checkbox" id="projecao" name="caracteristica" value="projecao">
+		<label for="projecao"> tem</label><br>
+		<input type="checkbox" id="cheiro" name="caracteristica" value="cheiro">
+		<label for="textura"> verde</label><br>
+		<input type="checkbox" id="cor" name="caracteristica" value="cor">
+		<label for="cor"> bonito</label><br>
+		<input type="checkbox" id="embalagem" name="caracteristica" value="embalagem">
+		<label for="embalagem"> maria</label><br>
+        
+    </fieldset>
+
+    <fieldset>
+        <legend>Dê uma nota para sua professora</legend>
+
+        <label for="notaProf">Sua professora explica bem a matéria?</label><br>
+        <input type="range" min="1" max="100" value="50" class="satisfacaoGeral" id="satisfacaoGeral">
+        <br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Opinião</legend>
+
+        <label>Digite a sua opnição sobre a disciplina</label><br>
+        <textarea cols="80" rows="7"></textarea>
+        <br><br>
+    </fieldset>
+
+    <br><br>
+    <input type="submit" name="submit" value="Gravar respostas">
+    <br><br>
+</body>
+
+</html>
