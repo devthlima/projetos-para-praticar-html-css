@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pesquisa de Opinião</h1>
+    </header>
+
+    <article>
+        <p>Nessa pesquisa você será questionado sobre o produto X.
+            Esse produto é vendido em todo o país nas perfumarias, lojas
+            de departamento, internet entre outros. Responda as questões
+            abaixo de acordo com sua opinião.
+        </p>
+    </article>
+
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+
+        <input type="text" placeholder="Digiteo o seu nome"><br><br>
+        <input type="text" placeholder="Digite a sua idade"><br><br>
+        <input type="email" placeholder="Digite o seu e-mail"><br><br>
+
+        <label>Data de Nascimento</label><br>
+        <input type="date" name="date" id="dtNascimento"><br><br>
+
+        <label>Digite uma senha para acessar os dados da pesquisa posteriormente:</label><br>
+        <input type="password" placeholder="Digite uma senha">
+    </fieldset>
+
+    <fieldset>
+        <legend>Aspecto do produto</legend>
+
+        <label>Selecione a cor do produto após 6 meses de uso:</label><br>
+        <input type="color">
+        
+        <br><br>
+    
+        <label>Adicone uma foto do seu produto</label><br>
+        <input type="file" name="file" id="arquivoProduto">
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Opinião quanto a utilização</legend>
+
+        <label> Você gosta do cheiro do produto?</label><br>
+        <input type="radio" name="gostmuito" id="gostomuito">
+        <label> Gosto Muito</label><br>
+        <input type="radio" name="gostmuito" id="gostomuito">
+        <label> Gosto </label><br>
+        <input type="radio" name="gostmuito" id="gostomuito">
+        <label>não sei</label><br>
+        <input type="radio" name="gostmuito" id="gostomuito">
+        <label>não gosto</label><br>
+        <input type="radio" name="gostmuito" id="gostomuito">
+        <label>Odeio</label><br><br>
+
+
+        <label>Marque as características do produto que mais gosta</label><br>
+        <input type="checkbox" name="caracteristica" id="fixação" value="fixação">
+        <label>fixação</label><br>
+        <input type="checkbox" name="caracteristica" id="projecao" value="projecao">
+        <label>textura</label><br>
+        <input type="checkbox" name="caracteristica" id="cheiro" value="cheiro">
+        <label>cheiro</label><br>
+        <input type="checkbox" name="caracteristica" id="cor" value="cor">
+        <label>cor</label><br>
+        <input type="checkbox" name="caracteristica" id="embalagem" value="embalagem">
+        <label>embalagem</label><br>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Nível de satisfação</legend>
+
+        <label>Coloque nessa escala o seu nível de satisfação geral do produto</label><br>
+        <input type="range" min="1" max="100" value="50" class="satisfacaoGeral" id="satisfacaoGeral">
+        <br><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Opiniões</legend>
+
+        <label> Digite abaixo sua opnião geral para esse produto</label><br>
+        <textarea cols="80" rows="7"></textarea>
+    </fieldset>
+
+    <br><br>
+    <input type="submit" name="submit" value="Gravar respostas">
+    <br><br>
+</body>
+
+</html>
